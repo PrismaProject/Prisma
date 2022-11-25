@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "Armor",
+    "X": -8.0,
+    "Y": 57.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Middle",
+    "VerticalFacing": "Down",
+    "Alignment": "Horizontal"
+  },
+  {
+    "Type": "Effects",
+    "X": 2.0,
+    "Y": 10.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Right",
+    "VerticalFacing": "Down",
+    "Font": {
+      "fontName": "Minecraft Font",
+      "fontSize": -1
+    },
+    "Shadow": true
+  },
+  {
+    "Type": "Armor",
+    "X": -8.0,
+    "Y": 57.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Middle",
+    "VerticalFacing": "Down",
+    "Alignment": "Horizontal"
+  },
+  {
+    "Type": "Notifications",
+    "X": 59.0,
+    "Y": 25.0,
+    "Scale": 1.05,
+    "HorizontalFacing": "Right",
+    "VerticalFacing": "Down",
+    "BackGroundAlpha": 170,
+    "Font": {
+      "fontName": "Roboto Medium",
+      "fontSize": 35
+    }
+  },
+  {
+    "Type": "Scoreboard",
+    "X": 13.0,
+    "Y": -6.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Right",
+    "VerticalFacing": "Middle",
+    "Text-R": 255,
+    "Text-G": 255,
+    "Text-B": 255,
+    "Background-R": 255,
+    "Background-G": 255,
+    "Background-B": 255,
+    "Background-Alpha": 80,
+    "Rect": false,
+    "Rect-Color": "Custom",
+    "Rect-R": 0,
+    "Rect-G": 111,
+    "Rect-B": 255,
+    "Rect-Alpha": 255,
+    "Shadow": false,
+    "Font": {
+      "fontName": "Minecraft Font",
+      "fontSize": -1
+    }
+  },
+  {
+    "Type": "Arraylist",
+    "X": 10.0,
+    "Y": 10.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Right",
+    "VerticalFacing": "Up",
+    "BRainbowSpeed": 90,
+    "BRainbow-Saturation": 1.0,
+    "BRainbow-Brightness": 1.0,
+    "BRainbow-R": 0,
+    "BRainbow-B": 50,
+    "BRainbow-G": 50,
+    "Rainbow-X": -1000.0,
+    "Rainbow-Y": -1000.0,
+    "Text-Color": "Custom",
+    "Text-R": 255,
+    "Text-G": 255,
+    "Text-B": 255,
+    "R2": 0,
+    "G2": 111,
+    "B2": 255,
+    "GidentSpeed": 100,
+    "TwoRainbow": 1.0,
+    "Rect-Color": "Custom",
+    "Rect-R": 255,
+    "Rect-G": 255,
+    "Rect-B": 255,
+    "Rect-Alpha": 5,
+    "Random-Saturation": 0.9,
+    "Random-Brightness": 1.0,
+    "Tags": true,
+    "ShadowText": true,
+    "Background-Color": "Custom",
+    "Background-R": 252,
+    "Background-G": 255,
+    "Background-B": 255,
+    "Background-Alpha": 2,
+    "BackGroundWidth": 14,
+    "Rect": "Left",
+    "UpperCase": false,
+    "Space": 0.20618556,
+    "TextHeight": 11.0,
+    "TextY": 1.0,
+    "TagsArrayColor": false,
+    "NameBreak": false,
+    "Font": {
+      "fontName": "Minecraft Font",
+      "fontSize": -1
+    }
+  }
+]
