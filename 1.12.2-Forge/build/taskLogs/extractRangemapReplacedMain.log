@@ -2,7 +2,7 @@ Unsupposrted library path: C:\Users\Administrator\Desktop\OwO Code\LiquidSense1.
 Unsupposrted library path: C:\Users\Administrator\Desktop\OwO Code\LiquidSense1.12.2-master\1.12.2-Forge\build\classes\kotlin\api
 Unsupposrted library path: C:\Users\Administrator\Desktop\OwO Code\LiquidSense1.12.2-master\1.12.2-Forge\build\resources\api
 Symbol range map extraction starting
-Processing 498 files
+Processing 495 files
 startProcessing "co/uk/hexeption/utils/OutlineUtils.java" md5: 368b7316da3e0c976b96bdfed5b69819
 endProcessing "co/uk/hexeption/utils/OutlineUtils.java"
 
@@ -176,13 +176,6 @@ endProcessing "me/Prisma/utils/Main/WebUtils.java"
 
 startProcessing "me/Prisma/utils/QQUtils.java" md5: 05e6d330d0d631a01cda7bdc413aaf12
 endProcessing "me/Prisma/utils/QQUtils.java"
-
-startProcessing "me/Prisma/utils/motionblur/MotionBlurResource.java" md5: 9b7ae2175b4cee3c63b485ff3a17e93d
-    Compile Error! Pb(2) IntegerValue cannot be resolved to a type
-endProcessing "me/Prisma/utils/motionblur/MotionBlurResource.java"
-
-startProcessing "me/Prisma/utils/motionblur/MotionBlurResourceManager.java" md5: c1ee1590ea907d5001bbdbdf37b77fa8
-endProcessing "me/Prisma/utils/motionblur/MotionBlurResourceManager.java"
 
 startProcessing "me/Prisma/utils/player/PlayerUtil.java" md5: 78dda842acbd0e68d14a1dc4fece68e7
     Compile Error! Pb(232) Syntax error on token ";", delete this token
@@ -924,35 +917,6 @@ startProcessing "net/ccbluex/liquidbounce/features/module/modules/render/ClickGU
     Compile Error! Pb(50) mc cannot be resolved
 endProcessing "net/ccbluex/liquidbounce/features/module/modules/render/ClickGUI.java"
 
-startProcessing "net/ccbluex/liquidbounce/features/module/modules/render/MotionBlur.java" md5: bad7e9faffac555e5b4ee2f8dbd49670
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.api cannot be resolved
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.event cannot be resolved
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.event cannot be resolved
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.features.module.Module cannot be resolved
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.features.module.ModuleCategory cannot be resolved
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.features.module.ModuleInfo cannot be resolved
-    Compile Error! Pb(390) The import net.ccbluex.liquidbounce.value cannot be resolved
-    Compile Error! Pb(2) ModuleInfo cannot be resolved to a type
-    Compile Error! Pb(83) ModuleCategory cannot be resolved to a variable
-    Compile Error! Pb(2) Module cannot be resolved to a type
-    Compile Error! Pb(2) IntegerValue cannot be resolved to a type
-    Compile Error! Pb(2) IntegerValue cannot be resolved to a type
-    Compile Error! Pb(634) The method onDisable() of type MotionBlur must override or implement a supertype method
-    Compile Error! Pb(50) mc cannot be resolved
-    Compile Error! Pb(634) The method onEnable() of type MotionBlur must override or implement a supertype method
-    Compile Error! Pb(50) mc2 cannot be resolved
-    Compile Error! Pb(2) IntegerValue cannot be resolved to a type
-    Compile Error! Pb(83) mc2 cannot be resolved to a variable
-    Compile Error! Pb(50) mc cannot be resolved
-    Compile Error! Pb(2) EventTarget cannot be resolved to a type
-    Compile Error! Pb(2) TickEvent cannot be resolved to a type
-    Compile Error! Pb(50) mc2 cannot be resolved
-    Compile Error! Pb(2) IntegerValue cannot be resolved to a type
-    Compile Error! Pb(83) mc2 cannot be resolved to a variable
-    Compile Error! Pb(2) IntegerValue cannot be resolved to a type
-    Compile Error! Pb(50) mc2 cannot be resolved
-endProcessing "net/ccbluex/liquidbounce/features/module/modules/render/MotionBlur.java"
-
 startProcessing "net/ccbluex/liquidbounce/features/module/modules/world/Scaffold.java" md5: da9bd6c35c136233f38515fc04ba7d53
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.LiquidBounce cannot be resolved
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.api cannot be resolved
@@ -1076,7 +1040,7 @@ endProcessing "net/ccbluex/liquidbounce/features/special/AntiForge.java"
 startProcessing "net/ccbluex/liquidbounce/file/FileConfig.java" md5: 854176be268fd77dad0b6840e54ce050
 endProcessing "net/ccbluex/liquidbounce/file/FileConfig.java"
 
-startProcessing "net/ccbluex/liquidbounce/file/FileManager.java" md5: c987cccf8f611c32e9660b82e2ce4ad9
+startProcessing "net/ccbluex/liquidbounce/file/FileManager.java" md5: fde7660936ec8d39154da3cc680aaf5f
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.LiquidBounce cannot be resolved
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.injection.backend.Backend cannot be resolved
     Compile Error! Pb(2) IMinecraft cannot be resolved to a type
@@ -1295,7 +1259,7 @@ startProcessing "net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinKey
     Compile Error! Pb(2) InventoryMove cannot be resolved to a type
 endProcessing "net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinKeyBinding.java"
 
-startProcessing "net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinMinecraft.java" md5: 49b5e54392160efb28a94ccb0c43c5ff
+startProcessing "net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinMinecraft.java" md5: 186933cede59c48f153b96b1b54a5400
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.LiquidBounce cannot be resolved
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.api cannot be resolved
     Compile Error! Pb(390) The import net.ccbluex.liquidbounce.event cannot be resolved

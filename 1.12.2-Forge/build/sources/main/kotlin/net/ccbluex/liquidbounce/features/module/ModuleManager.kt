@@ -44,7 +44,6 @@ class ModuleManager : Listenable {
                 AutoLeave::class.java,
                 AutoPot::class.java,
                 Trail::class.java,
-               MotionBlur::class.java,
                 AutoSoup::class.java,
                 AutoWeapon::class.java,
                 BowAimbot::class.java,

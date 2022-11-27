@@ -77,8 +77,8 @@
   "Player": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 25,
+    "posX": 103,
+    "posY": 92,
     "AntiAFK": {
       "Settings": false
     },
@@ -122,8 +122,8 @@
   "Movement": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 45,
+    "posX": 769,
+    "posY": 82,
     "AirJump": {
       "Settings": false
     },
@@ -227,8 +227,8 @@
   "Render": {
     "open": true,
     "visible": true,
-    "posX": 347,
-    "posY": 43,
+    "posX": 344,
+    "posY": 215,
     "AntiBlind": {
       "Settings": false
     },
@@ -245,7 +245,7 @@
       "Settings": false
     },
     "Cape": {
-      "Settings": false
+      "Settings": true
     },
     "Chams": {
       "Settings": false
@@ -268,9 +268,6 @@
     "ItemESP": {
       "Settings": false
     },
-    "MotionBlur": {
-      "Settings": true
-    },
     "NameTags": {
       "Settings": false
     },
@@ -290,7 +287,7 @@
       "Settings": false
     },
     "OldHitSetting": {
-      "Settings": false
+      "Settings": true
     },
     "OldHitting": {
       "Settings": false
@@ -374,7 +371,7 @@
     "posX": 678,
     "posY": 176,
     "AntiBot": {
-      "Settings": true
+      "Settings": false
     },
     "AtAllProvider": {
       "Settings": false
@@ -417,10 +414,10 @@
     }
   },
   "Exploit": {
-    "open": false,
+    "open": true,
     "visible": true,
-    "posX": 100,
-    "posY": 125,
+    "posX": 0,
+    "posY": 120,
     "AbortBreaking": {
       "Settings": false
     },
@@ -498,7 +495,7 @@
     }
   },
   "Targets": {
-    "open": false,
+    "open": true,
     "visible": true,
     "posX": 100,
     "posY": 185

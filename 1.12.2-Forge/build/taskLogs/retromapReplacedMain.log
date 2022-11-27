@@ -1,4 +1,4 @@
-Processing 498 files
+Processing 495 files
 Start Processing: co/uk/hexeption/utils/OutlineUtils.java
 Rename method net/minecraft/client/renderer/OpenGlHelper/setLightmapTextureCoords (IFF)V[1784,1808]::setLightmapTextureCoords->func_77475_a
 Rename field net/minecraft/client/renderer/OpenGlHelper/lightmapTexUnit[1810,1825]::lightmapTexUnit->field_77476_b
@@ -705,34 +705,6 @@ Adding 1 imports
         com.sun.jna.win32.StdCallLibrary.StdCallCallback
 End  Processing: me/Prisma/utils/QQUtils.java
 
-Start Processing: me/Prisma/utils/motionblur/MotionBlurResource.java
-Rename method net/minecraft/client/resources/IResource/getInputStream ()Ljava/io/InputStream;[478,492]::getInputStream->func_110527_b
-Rename method net/minecraft/client/resources/IResource/hasMetadata ()Z[1142,1153]::hasMetadata->func_110528_c
-Rename method net/minecraft/client/resources/IResource/getMetadata (Ljava/lang/String;)Lnet/minecraft/client/resources/data/IMetadataSection;[1221,1232]::getMetadata->func_110526_a
-Rename method net/minecraft/client/resources/IResource/getResourceLocation ()Lnet/minecraft/util/ResourceLocation;[1314,1333]::getResourceLocation->func_177241_a
-Rename method net/minecraft/client/resources/IResource/getResourcePackName ()Ljava/lang/String;[1382,1401]::getResourcePackName->func_177240_d
-Import: net.ccbluex.liquidbounce.features.module.modules.render.MotionBlur
-Import: net.minecraft.client.resources.IResource
-Import: net.minecraft.client.resources.data.IMetadataSection
-Import: net.minecraft.util.ResourceLocation
-Import: org.apache.commons.io.IOUtils
-Import: java.io.IOException
-Import: java.io.InputStream
-Import: java.util.Locale
-End  Processing: me/Prisma/utils/motionblur/MotionBlurResource.java
-
-Start Processing: me/Prisma/utils/motionblur/MotionBlurResourceManager.java
-Rename method net/minecraft/client/resources/IResourceManager/getResourceDomains ()Ljava/util/Set;[369,387]::getResourceDomains->func_135055_a
-Rename method net/minecraft/client/resources/IResourceManager/getResource (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/client/resources/IResource;[440,451]::getResource->func_110536_a
-Rename method net/minecraft/client/resources/IResourceManager/getAllResources (Lnet/minecraft/util/ResourceLocation;)Ljava/util/List;[562,577]::getAllResources->func_135056_b
-Import: java.io.IOException
-Import: java.util.List
-Import: java.util.Set
-Import: net.minecraft.client.resources.IResource
-Import: net.minecraft.client.resources.IResourceManager
-Import: net.minecraft.util.ResourceLocation
-End  Processing: me/Prisma/utils/motionblur/MotionBlurResourceManager.java
-
 Start Processing: me/Prisma/utils/player/PlayerUtil.java
 Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[318,330]::getMinecraft->func_71410_x
 Rename field net/minecraft/client/Minecraft/player[396,402]::player->field_71439_g
@@ -1071,23 +1043,6 @@ Import: org.lwjgl.input.Keyboard
 Import: java.awt.*
 End  Processing: net/ccbluex/liquidbounce/features/module/modules/render/ClickGUI.java
 
-Start Processing: net/ccbluex/liquidbounce/features/module/modules/render/MotionBlur.java
-Import: java.lang.reflect.Field
-Import: java.util.Map
-Import: me.Prisma.utils.motionblur.MotionBlurResourceManager
-Import: net.ccbluex.liquidbounce.api.minecraft.util.IResourceLocation
-Import: net.ccbluex.liquidbounce.event.EventTarget
-Import: net.ccbluex.liquidbounce.event.TickEvent
-Import: net.ccbluex.liquidbounce.features.module.Module
-Import: net.ccbluex.liquidbounce.features.module.ModuleCategory
-Import: net.ccbluex.liquidbounce.features.module.ModuleInfo
-Import: net.ccbluex.liquidbounce.utils.ClientUtils
-Import: net.ccbluex.liquidbounce.value.IntegerValue
-Import: net.minecraft.client.resources.SimpleReloadableResourceManager
-Import: net.minecraft.client.settings.GameSettings
-Import: net.minecraft.util.ResourceLocation
-End  Processing: net/ccbluex/liquidbounce/features/module/modules/render/MotionBlur.java
-
 Start Processing: net/ccbluex/liquidbounce/features/module/modules/world/Scaffold.java
 Import: net.ccbluex.liquidbounce.LiquidBounce
 Import: net.ccbluex.liquidbounce.api.enums.BlockType
@@ -1421,42 +1376,42 @@ New Key: class org/spongepowered/asm/mixin/injection/At
 New Key: class org/spongepowered/asm/mixin/injection/At
 New Key: class org/spongepowered/asm/mixin/injection/At
 New Key: class org/spongepowered/asm/mixin/injection/At
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5368,5380]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/gui/GuiScreen/setWorldAndResolution (Lnet/minecraft/client/Minecraft;II)V[5411,5432]::setWorldAndResolution->func_146280_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5435,5447]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/gui/ScaledResolution/getScaledWidth ()I[5468,5482]::getScaledWidth->func_78326_a
-Rename method net/minecraft/client/gui/ScaledResolution/getScaledHeight ()I[5501,5516]::getScaledHeight->func_78328_b
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5299,5311]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/gui/GuiScreen/setWorldAndResolution (Lnet/minecraft/client/Minecraft;II)V[5342,5363]::setWorldAndResolution->func_146280_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5366,5378]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/gui/ScaledResolution/getScaledWidth ()I[5399,5413]::getScaledWidth->func_78326_a
+Rename method net/minecraft/client/gui/ScaledResolution/getScaledHeight ()I[5432,5447]::getScaledHeight->func_78328_b
 New Key: class org/spongepowered/asm/mixin/injection/At
 New Key: class org/spongepowered/asm/mixin/injection/At
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7103,7116]::getBlockState->func_180495_p
-Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[7133,7144]::getBlockPos->func_178782_a
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7205,7213]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[7221,7232]::getMaterial->func_149688_o
-Rename field net/minecraft/block/material/Material/AIR[7259,7262]::AIR->field_151579_a
-Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[7386,7397]::getBlockPos->func_178782_a
-Rename field net/minecraft/util/math/RayTraceResult/sideHit[7447,7454]::sideHit->field_178784_b
-Rename method net/minecraft/util/Util/getOSType ()Lnet/minecraft/util/Util$EnumOS;[7636,7645]::getOSType->func_110647_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7034,7047]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[7064,7075]::getBlockPos->func_178782_a
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7136,7144]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[7152,7163]::getMaterial->func_149688_o
+Rename field net/minecraft/block/material/Material/AIR[7190,7193]::AIR->field_151579_a
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[7317,7328]::getBlockPos->func_178782_a
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[7378,7385]::sideHit->field_178784_b
+Rename method net/minecraft/util/Util/getOSType ()Lnet/minecraft/util/Util$EnumOS;[7567,7576]::getOSType->func_110647_a
 New Key: class net/minecraft/util/Util
 New Key: class net/ccbluex/liquidbounce/utils/CPSCounter
 New Key: class net/ccbluex/liquidbounce/utils/CPSCounter
 New Key: class org/spongepowered/asm/mixin/injection/At
 New Key: class net/ccbluex/liquidbounce/utils/CPSCounter
-Rename method net/minecraft/entity/EntityLivingBase/isHandActive ()Z[9769,9781]::isHandActive->func_184587_cr
-Rename field net/minecraft/util/math/RayTraceResult/typeOfHit[9943,9952]::typeOfHit->field_72313_a
+Rename method net/minecraft/entity/EntityLivingBase/isHandActive ()Z[9700,9712]::isHandActive->func_184587_cr
+Rename field net/minecraft/util/math/RayTraceResult/typeOfHit[9874,9883]::typeOfHit->field_72313_a
 New Key: class net/minecraft/util/math/RayTraceResult
-Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[10046,10057]::getBlockPos->func_178782_a
-Rename field net/minecraft/util/math/RayTraceResult/sideHit[10267,10274]::sideHit->field_178784_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10332,10345]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10381,10389]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[10397,10408]::getMaterial->func_149688_o
-Rename field net/minecraft/block/material/Material/AIR[10427,10430]::AIR->field_151579_a
-Rename method net/minecraft/client/multiplayer/PlayerControllerMP/onPlayerDamageBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z[10467,10486]::onPlayerDamageBlock->func_180512_c
-Rename field net/minecraft/util/math/RayTraceResult/sideHit[10512,10519]::sideHit->field_178784_b
-Rename method net/minecraft/client/particle/ParticleManager/addBlockHitEffects (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)V[10571,10589]::addBlockHitEffects->func_180532_a
-Rename field net/minecraft/util/math/RayTraceResult/sideHit[10616,10623]::sideHit->field_178784_b
-Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[10665,10673]::swingArm->func_184609_a
-Rename method net/minecraft/client/multiplayer/PlayerControllerMP/resetBlockRemoving ()V[10852,10870]::resetBlockRemoving->func_78767_c
-Rename field net/minecraft/client/settings/GameSettings/limitFramerate[11071,11085]::limitFramerate->field_74350_i
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[9977,9988]::getBlockPos->func_178782_a
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[10198,10205]::sideHit->field_178784_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10263,10276]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10312,10320]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[10328,10339]::getMaterial->func_149688_o
+Rename field net/minecraft/block/material/Material/AIR[10358,10361]::AIR->field_151579_a
+Rename method net/minecraft/client/multiplayer/PlayerControllerMP/onPlayerDamageBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z[10398,10417]::onPlayerDamageBlock->func_180512_c
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[10443,10450]::sideHit->field_178784_b
+Rename method net/minecraft/client/particle/ParticleManager/addBlockHitEffects (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)V[10502,10520]::addBlockHitEffects->func_180532_a
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[10547,10554]::sideHit->field_178784_b
+Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[10596,10604]::swingArm->func_184609_a
+Rename method net/minecraft/client/multiplayer/PlayerControllerMP/resetBlockRemoving ()V[10783,10801]::resetBlockRemoving->func_78767_c
+Rename field net/minecraft/client/settings/GameSettings/limitFramerate[11002,11016]::limitFramerate->field_74350_i
 Import: me.Prisma.Gui.GuiLogin
 Import: me.Prisma.Main.FakeSenseMain
 Import: me.Prisma.Main.WbxMain

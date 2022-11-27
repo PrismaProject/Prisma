@@ -4,7 +4,7 @@
   "targets": {
     "TargetPlayer": true,
     "TargetMobs": false,
-    "TargetAnimals": false,
+    "TargetAnimals": true,
     "TargetInvisible": false,
     "TargetDead": false
   },
@@ -28,7 +28,7 @@
   },
   "Background": {
     "Enabled": true,
-    "Particles": true
+    "Particles": false
   },
   "Aimbot": {
     "Range": 4.4,
@@ -214,7 +214,7 @@
     "Indicator": true
   },
   "Cape": {
-    "Style": "Dark"
+    "Style": "Light"
   },
   "Chams": {
     "Targets": true,
@@ -363,9 +363,9 @@
   "HUD": {
     "BlackHotbar": true,
     "InventoryParticle": false,
-    "Blur": true,
+    "Blur": false,
     "FontChat": false,
-    "LogMode": "141Sense",
+    "LogMode": "None",
     "ClientName": "Prisma",
     "DevName": "YuanXi_Cute",
     "NovolineRed": 255,
@@ -495,9 +495,6 @@
     "NCPBoost": 4.25,
     "AutoJump": false
   },
-  "MotionBlur": {
-    "BlurAmount": 1
-  },
   "NameProtect": {
     "AllPlayers": false,
     "SkinProtect": true,
@@ -574,7 +571,7 @@
     "Scale": 1.03
   },
   "OldHitting": {
-    "Mode": "Vanilla"
+    "Mode": "Prisma"
   },
   "Phase": {
     "Mode": "Vanilla"

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="roboto">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/assets/minecraft/Prisma/font/roboto.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

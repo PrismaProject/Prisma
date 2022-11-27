@@ -105,7 +105,7 @@
     "Array": true
   },
   "AutoTool": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": true
   },
@@ -130,7 +130,7 @@
     "Array": true
   },
   "BlockESP": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },
@@ -170,7 +170,7 @@
     "Array": true
   },
   "Cape": {
-    "State": false,
+    "State": true,
     "KeyBind": 0,
     "Array": true
   },
@@ -230,7 +230,7 @@
     "Array": true
   },
   "ESP": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },
@@ -255,7 +255,7 @@
     "Array": true
   },
   "FastPlace": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": true
   },
@@ -330,7 +330,7 @@
     "Array": true
   },
   "HytGetName": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },
@@ -424,11 +424,6 @@
     "KeyBind": 0,
     "Array": true
   },
-  "MotionBlur": {
-    "State": true,
-    "KeyBind": 0,
-    "Array": true
-  },
   "MultiActions": {
     "State": false,
     "KeyBind": 0,
@@ -475,7 +470,7 @@
     "Array": true
   },
   "NoHurtCam": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": true
   },
@@ -525,7 +520,7 @@
     "Array": true
   },
   "OldHitSetting": {
-    "State": false,
+    "State": true,
     "KeyBind": 0,
     "Array": true
   },
@@ -590,7 +585,7 @@
     "Array": true
   },
   "Rotations": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },
@@ -655,7 +650,7 @@
     "Array": true
   },
   "SuperKnockback": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },
@@ -675,7 +670,7 @@
     "Array": true
   },
   "Teams": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },

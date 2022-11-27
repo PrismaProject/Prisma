@@ -5,14 +5,15 @@ buildscript {
         mavenLocal()
         mavenCentral()
 
-        maven { url 'https://files.minecraftforge.net/maven' }
+        maven { url 'https://maven.minecraftforge.net/' }
         maven { url 'https://plugins.gradle.org/m2' }
         maven { url 'https://repo.spongepowered.org/maven' }
+        maven { url 'https://jitpack.io' }
     }
 
     dependencies {
         classpath group: 'org.jetbrains.kotlin', name: 'kotlin-gradle-plugin', version: kotlin_version
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '2.1-SNAPSHOT'
+        classpath group: 'com.github.asbyth', name: 'ForgeGradle', version: 'f6500bf402'
         classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.6-SNAPSHOT'
         classpath group: 'com.github.jengelman.gradle.plugins', name: 'shadow', version: '4.0.4'
     }
@@ -35,13 +36,6 @@ apply plugin: 'com.github.johnrengelman.shadow'
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 compileJava.options.encoding = 'UTF-8'
-
-sourceSets {
-    main.java.srcDirs += 'src/main/java'
-    main.java.srcDirs += '../shared/main/java'
-    main.resources.srcDirs += '../shared/main/resources'
-}
-
 
 compileKotlin {
     kotlinOptions {
@@ -87,7 +81,7 @@ dependencies {
     compile 'com.jagrosh:DiscordIPC:0.4'
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: kotlin_version
 
-    implementation 'com.github.TheAltening:API-Java:master-SNAPSHOT'
+    implementation 'com.github.TheAltening:API-Java:d0771f42d3'
     implementation 'com.github.TheAltening:API-Java-AuthLib:-SNAPSHOT'
     compile 'com.github.TheAltening:API-Java:api-2.0-SNAPSHOT'
     compile 'com.github.TheAltening:API-Java-AuthLib:-SNAPSHOT'

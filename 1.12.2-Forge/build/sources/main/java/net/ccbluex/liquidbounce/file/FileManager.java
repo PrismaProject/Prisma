@@ -28,6 +28,7 @@ public class FileManager extends MinecraftInstance {
     public final File fontsDir = new File(dir, "fonts");
     public final File settingsDir = new File(dir, "settings");
 
+
     public final FileConfig modulesConfig = new ModulesConfig(new File(dir, "modules.json"));
     public final FileConfig valuesConfig = new ValuesConfig(new File(dir, "values.json"));
     public final FileConfig clickGuiConfig = new ClickGuiConfig(new File(dir, "clickgui.json"));
